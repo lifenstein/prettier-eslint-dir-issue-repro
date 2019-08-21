@@ -1,0 +1,25 @@
+{
+  "name": "prettier-eslint-test",
+  "version": "1.0.0",
+  "repository": {
+    "url": "git@github.com:lifenstein/prettier-eslint-dir-issue-repro.git"
+  },
+  "description": "Reproducing https://github.com/prettier/prettier-eslint-cli/issues/167",
+  "scripts": {
+    "test": "prettier-eslint '**/*.js' --list-different"
+  },
+  "author": "Ashley.Wilson@uq.edu.au",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "6.2.1",
+    "eslint-config-airbnb-base": "14.0.0",
+    "eslint-plugin-import": "2.18.2",
+    "prettier-eslint-cli": "5.0.0"
+  },
+  "peerDependencies": {
+    "npm": "~6.11.1"
+  },
+  "engines": {
+    "node": "~11.15.0"
+  }
+}
