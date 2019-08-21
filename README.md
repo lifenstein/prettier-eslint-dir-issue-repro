@@ -22,3 +22,7 @@ failure formatting 1 file with prettier-eslint
 1 file was unchanged
 npm ERR! Test failed.  See above for more details.
 ```
+
+## Other scripts
+
+Please refer to `package.json` for some more scripts to compare outputs with.

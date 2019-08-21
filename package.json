@@ -6,7 +6,13 @@
   },
   "description": "Reproducing https://github.com/prettier/prettier-eslint-cli/issues/167",
   "scripts": {
-    "test": "prettier-eslint '**/*.js' --list-different"
+    "test": "prettier-eslint '**/*.js' --list-different",
+    "test:prettier": "prettier '**/*.js' --list-different",
+    "test:eslint": "eslint '**/*.js'",
+    "test:write": "prettier-eslint '**/*.js' --write",
+    "test:write:prettier": "prettier '**/*.js' --write",
+    "test:write:eslint": "eslint '**/*.js' --fix",
+    "clean": "git checkout -- ."
   },
   "author": "Ashley.Wilson@uq.edu.au",
   "license": "ISC",
